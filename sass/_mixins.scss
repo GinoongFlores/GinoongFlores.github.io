@@ -1,0 +1,60 @@
+@mixin FullWH {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin bdcolor {
+    background-color: #555;
+    color: white !important;
+}
+
+@mixin hr {
+    border-top: 1px solid $PrimaryColor;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+@mixin hr-100 {
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+@mixin centerImg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin Imghover {
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+@mixin elem {
+    display: inline-block;
+    width: 33%;
+    border: 15px solid transparent;
+    border-bottom: none;
+    background: -webkit-gradient(linear, left top, right top, from(#5499c7), color-stop(35%, #f4d03f), to(#e74c3c));
+    background: linear-gradient(90deg, #5499c7 0%, #f4d03f 35%, #e74c3c 100%);
+    padding: 10px;
+    height: auto;
+    background-clip: padding-box;
+}
+
+@mixin elemspan {
+    display: block;
+    cursor: -webkit-grab;
+    cursor: grab;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+}

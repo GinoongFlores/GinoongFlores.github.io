@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+@import 'variables';
+@import 'mixins';
+
+
+html, body {
+    @include FullWH;
+    font-family: $PrimaryFont;
+}
+
+.navbar-brand {
+    font-family: $PrimaryFont;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.section {
+    padding: $toprightpd;
+}
+
+.imgabout {
+    margin-left: 36rem;
+    top: $margin2rem;
+    position: relative;
+}
+  
+.imgteam {
+    margin-left: 33rem;
+    top: $margin2rem;
+    position: relative;
+}
+  
+.imgshs {
+    margin-left: 32rem;
+    top: $margin2rem;
+    position: relative;
+}
+  
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav {
+    li {
+        padding-right: 20px;
+        font-weight: bold;
+    }
+}
+
+li {
+    a:hover:not(.active) {
+        @include bdcolor;
+    }
+}
+
+.active {
+    a {
+        @include bdcolor;
+    }
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-img {
+    @include FullWH;
+}
+
+#slides {
+    @include FullWH;
+    overflow: hidden;
+    position: relative;
+}
+
+.whereto {
+    position: relative;
+    font-size: 1rem;
+    top: $margin2rem;
+}
+
+.chgfont {
+    font-family: $PrimaryFont;
+    font-weight: bold;
+}
+
+
+.lead {
+    font-family: $SecondaryFont;
+    margin-top: $margin2rem;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.light {
+    @include hr;
+}
+
+.light-100 {
+    @include hr-100;
+}
+
+.h3 {
+    text-align: $Center;
+    font-family: $PrimaryFont;
+    padding: $toprightpd;
+    font-weight: bold;
+}
+
+#myImg2 {
+    @include centerImg;
+}
+
+#myImg0, #myImg1 ,#myImg2 {
+     @include Imghover
+}
+    
+
+#myImg0:hover ,#myImg1:hover ,#myImg2:hover {
+     opacity: 0.7;
+}
+
+// Gallery
+.elem a:link {
+    color: #414958;
+    text-decoration: underline;
+}
+  
+.for-gallery {
+    background-color: #fdfdfd;
+    margin-bottom: 5rem;
+}
+
+.logo {
+    margin-left: 32rem;
+    top: $margin2rem;
+    position: relative;
+}
+
+.elem, .elem * {
+    -webkit-box-sizing: border-box;
+    -webkit-box-sizing-box-sizing: border-box;
+    margin: 0 !important;
+}
+
+.elem {
+    @include elem;
+}
+
+.elem > span {
+    @include elemspan;
+}
+
+.lcl_fade_oc.lcl_pre_show #lcl_overlay,
+.lcl_fade_oc.lcl_pre_show #lcl_window,
+.lcl_fade_oc.lcl_is_closing #lcl_overlay,
+.lcl_fade_oc.lcl_is_closing #lcl_window {
+  opacity: 0 !important;
+}
+
+.lcl_fade_oc .lcl_is_closing #lcl_overlay {
+  -webkit-transition-delay: 0.15s !important;
+  -webkit-transition-delay-transistion-delay: .15s !important;
+}
+
+@import 'footer';
+@import 'queries';
+
+  
