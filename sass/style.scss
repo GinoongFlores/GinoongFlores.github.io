@@ -103,12 +103,14 @@ li {
     @include hr-100;
 }
 
-.h3 {
+.heading {
     text-align: $Center;
     font-family: $PrimaryFont;
     padding: $toprightpd;
     font-weight: bold;
+    color: black;
 }
+
 
 #myImg2 {
     @include centerImg;

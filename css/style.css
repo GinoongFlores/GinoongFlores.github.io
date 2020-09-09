@@ -102,11 +102,12 @@ li a:hover:not(.active) {
   margin-bottom: 1rem;
 }
 
-.h3 {
+.heading {
   text-align: center;
   font-family: Raleway;
   padding: 2rem 0 2rem 0;
   font-weight: bold;
+  color: black;
 }
 
 #myImg2 {
