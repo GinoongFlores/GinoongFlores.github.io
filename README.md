@@ -20,7 +20,7 @@ My Personal Website
 
 ## Authors
 
-* **Christian Paul H. Flores** - *Initial work* - [GinoongFlores](https://bit.ly/GinoongFlores)
+* **Christian Paul H. Flores** - *Initial work* - [GinoongFlores](GinoongFlores.github.io)
 
 ## Acknowledgments
 
