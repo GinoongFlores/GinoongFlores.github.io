@@ -5,7 +5,8 @@
 @import 'mixins';
 
 
-html, body {
+html,
+body {
     @include FullWH;
     font-family: $PrimaryFont;
 }
@@ -25,19 +26,19 @@ html, body {
     top: $margin2rem;
     position: relative;
 }
-  
+
 .imgteam {
     margin-left: 33rem;
     top: $margin2rem;
     position: relative;
 }
-  
+
 .imgshs {
     margin-left: 32rem;
     top: $margin2rem;
     position: relative;
 }
-  
+
 .navbar {
     padding: 0.8rem;
 }
@@ -116,13 +117,17 @@ li {
     @include centerImg;
 }
 
-#myImg0, #myImg1 ,#myImg2 {
-     @include Imghover
+#myImg0,
+#myImg1,
+#myImg2 {
+    @include Imghover
 }
-    
 
-#myImg0:hover ,#myImg1:hover ,#myImg2:hover {
-     opacity: 0.7;
+
+#myImg0:hover,
+#myImg1:hover,
+#myImg2:hover {
+    opacity: 0.7;
 }
 
 // Gallery
@@ -130,7 +135,7 @@ li {
     color: #414958;
     text-decoration: underline;
 }
-  
+
 .for-gallery {
     background-color: #fdfdfd;
     margin-bottom: 5rem;
@@ -142,7 +147,8 @@ li {
     position: relative;
 }
 
-.elem, .elem * {
+.elem,
+.elem * {
     -webkit-box-sizing: border-box;
     -webkit-box-sizing-box-sizing: border-box;
     margin: 0 !important;
@@ -152,7 +158,7 @@ li {
     @include elem;
 }
 
-.elem > span {
+.elem>span {
     @include elemspan;
 }
 
@@ -160,15 +166,13 @@ li {
 .lcl_fade_oc.lcl_pre_show #lcl_window,
 .lcl_fade_oc.lcl_is_closing #lcl_overlay,
 .lcl_fade_oc.lcl_is_closing #lcl_window {
-  opacity: 0 !important;
+    opacity: 0 !important;
 }
 
 .lcl_fade_oc .lcl_is_closing #lcl_overlay {
-  -webkit-transition-delay: 0.15s !important;
-  -webkit-transition-delay-transistion-delay: .15s !important;
+    -webkit-transition-delay: 0.15s !important;
+    -webkit-transition-delay-transistion-delay: .15s !important;
 }
 
 @import 'footer';
 @import 'queries';
-
-  

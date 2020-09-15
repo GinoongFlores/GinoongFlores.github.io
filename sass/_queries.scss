@@ -1,144 +1,167 @@
 @media screen and (max-width: 992px) {
-    .content > div {
-      width: 100% important;
-    }
-    .lead {
-      margin-top: $margin2rem;
-      font-size: 1.3rem;
-      line-height: 2; 
+  .content>div {
+    width: 100% important;
+  }
+
+  .lead {
+    margin-top: $margin2rem;
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h3 {
+    font-size: 1.3rem;
+  }
+
+  .elem {
+    width: 30%;
+    height: auto;
+  }
+
+  #slides {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .lead {
+    margin-top: $margin2rem;
+    font-size: 1.1rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .navbar-nav {
+    li {
+      padding-right: 10px;
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .h3 {
-      font-size: 1.3rem;
-    }
-    .elem {
-        width: 30%;
-        height: auto;
-    }
-    #slides {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-      position: relative;
-    }
-    .lead {
-      margin-top: $margin2rem;
-      font-size: 1.1rem;
-    }
-    .navbar {
-      padding: 0.5rem;
-    }
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
 
-    .navbar-nav {
-        li {
-        padding-right: 10px;
-        }
-    }
+  .nav-link {
+    font-size: 0.9rem !important;
+  }
 
-    .navbar-brand {
-      font-size: 1.1rem;
-    }
-    .nav-link {
-      font-size: 0.9rem !important;
-    }
+  footer p,
+  a {
+    font-size: 15px;
+  }
 
-    footer p, a {
+  .social {
+    a {
+      font-size: 15px;
+      line-height: $margin2rem;
+    }
+  }
+
+  .footer-copyright {
+    h5 {
       font-size: 15px;
     }
-
-    .social {
-        a {
-            font-size: 15px;
-            line-height: $margin2rem;
-        }
-    }
-
-    .footer-copyright {
-        h5 {
-            font-size: 15px;
-        }
-    }
-    
   }
 
-  @media screen and (max-width: 576px) {
-    #myImg2 {
-      width: 500px;
-    }
-    #myImg0, #myImg1 {
-      display: block;
-      width: 500px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    .elem {
-        width: 30%;
-        height: auto;
-    }
-    .logo {
-        margin-left: 7rem;
-    }
-    .h3 {
-      font-size: 1.3rem;
-    }
+}
 
-    .lead {
-      margin-top: $margin2rem;
-      font-size: 1.1rem;
-    }
-    .navbar {
-      padding: 0.5rem;
-    }
-    .navbar-nav {
-        li {
-            padding-right: 10px;
-        }
-    }
-    .navbar-brand {
-      font-size: 1.1rem;
-    }
-    .nav-link {
-      font-size: 0.9rem !important;
-    }
+@media screen and (max-width: 576px) {
+  #myImg2 {
+    width: 500px;
+  }
 
-    footer {
-        h5 {
-            font-size: 15px;
-        }
-    }
+  #myImg0,
+  #myImg1 {
+    display: block;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    footer p, a {
-      font-size: 10px;
+  .elem {
+    width: 30%;
+    height: auto;
+  }
+
+  .logo {
+    margin-left: 7rem;
+  }
+
+  .h3 {
+    font-size: 1.3rem;
+  }
+
+  .lead {
+    margin-top: $margin2rem;
+    font-size: 1.1rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .navbar-nav {
+    li {
+      padding-right: 10px;
     }
-    .social a {
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem !important;
+  }
+
+  footer {
+    h5 {
+      font-size: 15px;
+    }
+  }
+
+  footer p,
+  a {
+    font-size: 10px;
+  }
+
+  .social a {
+    font-size: 10px;
+    line-height: 1.2rem;
+  }
+
+  .social {
+    a {
       font-size: 10px;
       line-height: 1.2rem;
     }
-    .social {
-        a {
-            font-size: 10px;
-            line-height: 1.2rem;
-        }
-    }
-    .footer-copyright h5 {
-      font-size: 10px;
-    }
   }
 
-  @media screen and (max-width: 480px) {
-    .for-gallery {
-        margin-bottom: 3rem;
-    }
-    .elem {
-        width: 30%;
-        padding: 5px;
-    }
-    .sizeabout {
-      margin-right: 10rem;
-    }
-    #myImg2 {
-      width: 290px;
-    }
+  .footer-copyright h5 {
+    font-size: 10px;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .for-gallery {
+    margin-bottom: 3rem;
+  }
+
+  .elem {
+    width: 30%;
+    padding: 5px;
+  }
+
+  .sizeabout {
+    margin-right: 10rem;
+  }
+
+  #myImg2 {
+    width: 290px;
+  }
+}
