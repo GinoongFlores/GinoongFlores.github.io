@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-family: Raleway;
@@ -116,7 +117,9 @@ li a:hover:not(.active) {
   margin-left: auto;
 }
 
-#myImg0, #myImg1, #myImg2 {
+#myImg0,
+#myImg1,
+#myImg2 {
   border-radius: 10px;
   cursor: pointer;
   -webkit-transition: 0.5s ease;
@@ -125,7 +128,9 @@ li a:hover:not(.active) {
   backface-visibility: hidden;
 }
 
-#myImg0:hover, #myImg1:hover, #myImg2:hover {
+#myImg0:hover,
+#myImg1:hover,
+#myImg2:hover {
   opacity: 0.7;
 }
 
@@ -145,7 +150,8 @@ li a:hover:not(.active) {
   position: relative;
 }
 
-.elem, .elem * {
+.elem,
+.elem * {
   -webkit-box-sizing: border-box;
   -webkit-box-sizing-box-sizing: border-box;
   margin: 0 !important;
@@ -185,12 +191,19 @@ li a:hover:not(.active) {
   -webkit-transition-delay-transistion-delay: 0.15s !important;
 }
 
+.updatedate {
+  position: absolute;
+  margin-left: 20rem;
+}
+
 footer {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   font-family: Raleway;
 }
 
-footer p, a, h5 {
+footer p,
+a,
+h5 {
   color: whitesmoke;
   font-weight: bold;
 }
@@ -252,6 +265,10 @@ footer p, a, h5 {
     font-size: 1.3rem;
     line-height: 2;
   }
+
+  .updatedate {
+    margin-left: 3rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .h3 {
@@ -291,7 +308,8 @@ footer p, a, h5 {
     font-size: 0.9rem !important;
   }
 
-  footer p, a {
+  footer p,
+a {
     font-size: 15px;
   }
 
@@ -301,7 +319,11 @@ footer p, a, h5 {
   }
 
   .footer-copyright h5 {
-    font-size: 15px;
+    margin-left: 8rem;
+  }
+
+  .updatedate {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -309,7 +331,8 @@ footer p, a, h5 {
     width: 500px;
   }
 
-  #myImg0, #myImg1 {
+  #myImg0,
+#myImg1 {
     display: block;
     width: 500px;
     margin-right: auto;
@@ -351,10 +374,11 @@ footer p, a, h5 {
   }
 
   footer h5 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
-  footer p, a {
+  footer p,
+a {
     font-size: 10px;
   }
 
@@ -370,6 +394,11 @@ footer p, a, h5 {
 
   .footer-copyright h5 {
     font-size: 10px;
+  }
+
+  .updatedate {
+    font-size: 5px;
+    margin-left: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -388,6 +417,11 @@ footer p, a, h5 {
 
   #myImg2 {
     width: 290px;
+  }
+
+  .updatedate {
+    font-size: 4px;
+    margin-left: 1rem;
   }
 }
 

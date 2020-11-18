@@ -8,6 +8,10 @@
     font-size: 1.3rem;
     line-height: 2;
   }
+
+  .updatedate {
+    margin-left: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -64,8 +68,12 @@
 
   .footer-copyright {
     h5 {
-      font-size: 15px;
+      margin-left: 8rem;
     }
+  }
+
+  .updatedate {
+    font-size: 10px;
   }
 
 }
@@ -121,7 +129,7 @@
 
   footer {
     h5 {
-      font-size: 15px;
+      font-size: 20px;
     }
   }
 
@@ -145,6 +153,12 @@
   .footer-copyright h5 {
     font-size: 10px;
   }
+
+  .updatedate {
+    font-size: 5px;
+    margin-left: 2rem;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -164,4 +178,10 @@
   #myImg2 {
     width: 290px;
   }
+
+  .updatedate {
+    font-size: 4px;
+    margin-left: 1rem;
+  }
+
 }

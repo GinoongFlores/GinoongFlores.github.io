@@ -9,6 +9,7 @@ html,
 body {
     @include FullWH;
     font-family: $PrimaryFont;
+    
 }
 
 .navbar-brand {
@@ -172,6 +173,11 @@ li {
 .lcl_fade_oc .lcl_is_closing #lcl_overlay {
     -webkit-transition-delay: 0.15s !important;
     -webkit-transition-delay-transistion-delay: .15s !important;
+}
+
+.updatedate {
+  position: absolute;
+  margin-left: 20rem;
 }
 
 @import 'footer';
