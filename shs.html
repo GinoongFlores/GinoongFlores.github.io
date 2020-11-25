@@ -1,198 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177200668-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177200668-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      gtag("config", "UA-177200668-1");
+    </script>
 
-    gtag('config', 'UA-177200668-1');
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shs Experience</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shs Experience</title>
+    <!-- ======= Google Fonts ======= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- ======= Google Fonts ======= -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/shs.png" />
+  </head>
 
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="img/shs.png">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">Shs Experience</a>
+          <!-- <img src="img/shs.png" class="sizeshs"> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
 
-</head>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+              <li class="nav-item">
+                <a href="community.html" class="nav-link">Community</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="Gallery.html" class="nav-link">Gallery</a>
+              </li>
+
+              <li class="nav-item active">
+                <a href="shs.html" class="nav-link shs">Shs Experience</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="ms_stream.html" class="nav-link">Ms Stream</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ======= Carousel ======= -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        <li data-target="#slides" data-slide-to="3"></li>
+        <li data-target="#slides" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <img
+            src="img/76787110_2620265091396561_2351101536332939264_o.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/79946430_2855986234421213_3488801668252827648_o.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/received_1726420130790953.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/received_918217865226065.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/69332016_699311183923264_8192054946321924096_n.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#slides"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#slides"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <hr class="my-4" />
+
+    <section class="container-fluid section" data-aos="fade-in">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <!-- <img src="img/shs.png" class="imgshs"> -->
+          <h2 class="text-center chgfont">Shs Experience</h2>
+          <p class="lead ml-5 mr-5">
+            Hello there! In this section, you will see my different kinds of
+            Senior High School Experience. Through different kinds of
+            achievements, I will never forget these experiences in my life that
+            gives me motivation, determination, and dedication every day in my
+            life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Follow me ======= -->
+
+    <hr class="my-4" />
+
+    <footer>
       <div class="container-fluid">
-        <a href="#" class="navbar-brand">Shs Experience</a>
-        <!-- <img src="img/shs.png" class="sizeshs"> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
+        <div class="row text-center">
+          <div class="col-md-4" data-aos="fade-right">
+            <hr class="light" />
+            <h5>Contact Me</h5>
+            <hr class="light" />
+            <p>+63 9273334152</p>
+            <p>
+              <a href="mailto:christianpaulflores223@gmail.com"
+                >christianpaulflores223@gmail.com</a
+              >
+            </p>
+            <p>Barangay 29, Justo Ramonal ST.</p>
+            <p>Cagayan de Oro City, Philippines</p>
+          </div>
 
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
+          <div class="col-md-4" data-aos="fade-right">
+            <hr class="light" />
+            <h5>My Schedules</h5>
+            <hr class="light" />
+            <p>Weekdays: 10am - 10pm</p>
+            <p>Saturday: 9am - 6pm</p>
+            <p>Sunday: 1pm - 5pm</p>
+          </div>
 
-            <li class="nav-item">
-              <a href="community.html" class="nav-link">Community</a>
-            </li>
+          <div class="col-md-4 social" data-aos="fade-right">
+            <hr class="light" />
+            <h5>Connect</h5>
+            <hr class="light" />
+            <a href="https://www.facebook.com/christianpaul223"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+            <a href="https://www.instagram.com/christianpaulflores/"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+            <a
+              href="https://www.youtube.com/channel/UCXLNlyRIeH-BKAd5MEU8afg"
+              class="mr-3"
+              ><i class="fab fa-youtube"></i> Youtube</a
+            >
+            <a href="https://twitter.com/Flores_Chrstn" class="mr-4"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+          </div>
 
-            <li class="nav-item">
-              <a href="Gallery.html" class="nav-link">Gallery</a>
-            </li>
-
-            <li class="nav-item active">
-              <a href="shs.html" class="nav-link shs">Shs Experience</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="ms_stream.html" class="nav-link">Ms Stream</a>
-            </li>
-
-          </ul>
+          <div class="footer-copyright col-12">
+            <hr class="light-100" />
+            <h5 class="text-center">
+              &copy; 2020 Copyright:<a
+                href="https://www.facebook.com/christianpaul223"
+              >
+                Christian Paul H. Flores</a
+              >
+            </h5>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 1000,
+      });
 
-  <!-- ======= Carousel ======= -->
-  <div id="slides" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#slides" data-slide-to="0" class="active"></li>
-      <li data-target="#slides" data-slide-to="1"></li>
-      <li data-target="#slides" data-slide-to="2"></li>
-      <li data-target="#slides" data-slide-to="3"></li>
-      <li data-target="#slides" data-slide-to="4"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-interval="5000">
-        <img src="img/76787110_2620265091396561_2351101536332939264_o.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/79946430_2855986234421213_3488801668252827648_o.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/received_1726420130790953.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/received_918217865226065.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/69332016_699311183923264_8192054946321924096_n.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <hr class="my-4">
-
-  <section class="container-fluid section" data-aos="fade-in">
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <!-- <img src="img/shs.png" class="imgshs"> -->
-        <h2 class="text-center chgfont">Shs Experience</h2>
-        <p class="lead ml-5 mr-5">
-          Hello there! In this section, you will see my different kinds of Senior High School Experience. Through
-          different kinds of achievements, I will never forget these experiences in my life that gives me motivation,
-          determination, and dedication every day in my life.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Follow me ======= -->
-
-  <hr class="my-4">
-
-  <footer>
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-md-4" data-aos="fade-right">
-          <hr class="light">
-          <h5>Contact Me</h5>
-          <hr class="light">
-          <p>+63 9273334152</p>
-          <p><a href="mailto:christianpaulflores223@gmail.com">christianpaulflores223@gmail.com</a></p>
-          <p>Barangay 29, Justo Ramonal ST.</p>
-          <p>Cagayan de Oro City, Philippines</p>
-        </div>
-
-        <div class="col-md-4" data-aos="fade-right">
-          <hr class="light">
-          <h5>My Schedules</h5>
-          <hr class="light">
-          <p>Weekdays: 10am - 10pm</p>
-          <p>Saturday: 9am - 6pm</p>
-          <p>Sunday: 1pm - 5pm</p>
-        </div>
-
-        <div class="col-md-4 social" data-aos="fade-right">
-          <hr class="light">
-          <h5>Connect</h5>
-          <hr class="light">
-          <a href="https://www.facebook.com/christianpaul223"><i class="fab fa-facebook"></i> Facebook</a>
-          <a href="https://www.instagram.com/christianpaulflores/"><i class="fab fa-instagram"></i> Instagram</a>
-          <a href="https://www.youtube.com/channel/UCXLNlyRIeH-BKAd5MEU8afg" class="mr-3"><i class="fab fa-youtube"></i>
-            Youtube</a>
-          <a href="https://twitter.com/Flores_Chrstn" class="mr-4"><i class="fab fa-twitter"></i> Twitter</a>
-        </div>
-
-        <div class="footer-copyright col-12">
-          <hr class="light-100">
-          <h5 class="text-center">&copy; 2020 Copyright:<a href="https://www.facebook.com/christianpaul223"> Christian
-              Paul H. Flores</a></h5>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 120,
-      duration: 1000
-    });
-
-    $('.carousel').carousel({
-      interval: 2000
-    })
-  </script>
-
-</body>
-
+      $(".carousel").carousel({
+        interval: 2000,
+      });
+    </script>
+  </body>
 </html>

@@ -267,7 +267,7 @@ h5 {
   }
 
   .updatedate {
-    margin-left: 3rem;
+    margin-left: 9rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -322,8 +322,12 @@ a {
     margin-left: 8rem;
   }
 
+  .resize {
+    margin-right: 5rem;
+  }
+
   .updatedate {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -387,18 +391,20 @@ a {
     line-height: 1.2rem;
   }
 
-  .social a {
-    font-size: 10px;
-    line-height: 1.2rem;
-  }
-
   .footer-copyright h5 {
     font-size: 10px;
   }
 
   .updatedate {
-    font-size: 5px;
+    font-size: 10px;
     margin-left: 2rem;
+  }
+
+  .fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube {
+    font-size: medium;
   }
 }
 @media screen and (max-width: 480px) {
@@ -420,7 +426,7 @@ a {
   }
 
   .updatedate {
-    font-size: 4px;
+    font-size: 8px;
     margin-left: 1rem;
   }
 }
