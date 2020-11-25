@@ -2,364 +2,359 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177200668-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177200668-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+    gtag("config", "UA-177200668-1");
+  </script>
 
-		gtag('config', 'UA-177200668-1');
-	</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Gallery</title>
+  <!-- ======= Google Fonts ======= -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
-	<!-- ======= Google Fonts ======= -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/icons/gallery.png" />
 
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="img/patterns/gallery.png">
+  <!-- REQUIRED ELEMENTS -->
 
-
-	<!-- REQUIRED ELEMENTS -->
-
-	<script src="lib/jquery.js" type="text/javascript"></script>
-	<script src="js/lc_lightbox.lite.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="lightbox/lc_lightbox.css" />
-	<link rel="stylesheet" href="cssFinal/style.css" />
-	<!-- SKINS -->
-	<link rel="stylesheet" href="skins/minimal.css" />
-	<!-- ASSETS -->
-	<script src="lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
-
-
+  <script src="lib/jquery.js" type="text/javascript"></script>
+  <script src="js/lc_lightbox.lite.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="lightbox/lc_lightbox.css" />
+  <link rel="stylesheet" href="cssFinal/style.css" />
+  <!-- SKINS -->
+  <link rel="stylesheet" href="skins/minimal.css" />
+  <!-- ASSETS -->
+  <script src="lib/AlloyFinger/alloy_finger.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-
-	<header class="for-gallery">
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-			<div class="container-fluid">
-				<a href="#" class="navbar-brand">Gallery</a>
-				<!-- <img src="img/patterns/gallery.png" class="size"> -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="index.html" class="nav-link">Home</a>
-						</li>
-
-						<li class="nav-item">
-							<a href="about.html" class="nav-link">About</a>
-						</li>
-
-						<li class="nav-item">
-							<a href="community.html" class="nav-link">Community</a>
-						</li>
-
-						<li class="nav-item active">
-							<a href="gallery.html" class="nav-link">Gallery</a>
-						</li>
-
-						<li class="nav-item">
-							<a href="shs.html" class="nav-link">Shs Experience</a>
-						</li>
-
-						<li class="nav-item">
-							<a href="ms_stream.html" class="nav-link">Ms Stream</a>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-
-				<!-- Filming -->
-
-				<a class="elem" href="img/39910929_2201860130043989_6164503140461707264_o.jpg" title="NOT READY"
-					data-lcl-txt="Not so ready pose." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/39910929_2201860130043989_6164503140461707264_o.jpg">
-					<span
-						style="background-image: url(img/39910929_2201860130043989_6164503140461707264_o.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/39760829_2201859576710711_3841154394305331200_o.jpg" title="SERIOUS"
-					data-lcl-txt="Just Being serious looking at you." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/39760829_2201859576710711_3841154394305331200_o.jpg">
-					<span
-						style="background-image: url(img/39760829_2201859576710711_3841154394305331200_o.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/39929241_2201858076710861_8292078790411026432_o.jpg" title="SMILE"
-					data-lcl-txt="Smile in your heart." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/39929241_2201858076710861_8292078790411026432_o.jpg">
-					<span
-						style="background-image: url(img/39929241_2201858076710861_8292078790411026432_o.jpg);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- Blue -->
-
-				<a class="elem" href="img/39834925_2201858290044173_675076478479630336_o.jpg" title="Simple"
-					data-lcl-txt="I just sit down simply." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/39834925_2201858290044173_675076478479630336_o.jpg">
-					<span style="background-image: url(img/39834925_2201858290044173_675076478479630336_o.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_463001871064805.jpeg" title="MESSY HAIR"
-					data-lcl-txt="Messy hair don't care." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_463001871064805.jpeg">
-					<span style="background-image: url(img/received_463001871064805.jpeg);"></span>
-				</a>
-
-				<a class="elem" href="img/39750203_2201858203377515_5271853467126726656_o.jpg" title="PEACE"
-					data-lcl-txt="Peace be with you." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/39750203_2201858203377515_5271853467126726656_o.jpg">
-					<span
-						style="background-image: url(img/39750203_2201858203377515_5271853467126726656_o.jpg);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- Uniform -->
-
-				<a class="elem" href="img/Pics/ppg.png" title="Grade 12" data-lcl-txt="Still being handsome."
-					data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/Pics/ppg.png">
-					<span style="background-image: url(img/Pics/ppg.png);"></span>
-				</a>
-
-				<a class="elem" href="img/Pics/IMG_2580.png" title="The Endorser"
-					data-lcl-txt="Choice is ICT choose STI." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/Pics/IMG_2580.png">
-					<span style="background-image: url(img/Pics/IMG_2580.png);"></span>
-				</a>
-
-				<a class="elem" href="img/Pics/prof0.png" title="Graduating" data-lcl-txt="Smiley graduated."
-					data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/Pics/prof0.png">
-					<span style="background-image: url(img/Pics/prof0.png);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- Buwan ng Wika -->
-
-				<a class="elem" href="img/69045387_2428599153886930_8787795789637222400_n-1.jpg" title="KAMPEON!"
-					data-lcl-txt="Kampeon ng Pagsasaling wika #Buwan ng Wika" data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/69045387_2428599153886930_8787795789637222400_n-1.jpg">
-					<span
-						style="background-image: url(img/69045387_2428599153886930_8787795789637222400_n-1.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/69344938_699307507256965_961471516321513472_n.jpg" title="Ginoong Flores"
-					data-lcl-txt="Ako to si Natoy na Mahal na mahal ka." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/69344938_699307507256965_961471516321513472_n.jpg">
-					<span style="background-image: url(img/69344938_699307507256965_961471516321513472_n.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/69336336_2697286310316143_9024309627059175424_n-1.jpg"
-					title="Take a photo of me" data-lcl-txt="I smile you click the camera."
-					data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/69336336_2697286310316143_9024309627059175424_n-1.jpg">
-					<span
-						style="background-image: url(img/69336336_2697286310316143_9024309627059175424_n-1.jpg);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- STIER -->
-
-				<a class="elem" href="img/69227972_2953856648171985_3201352301839122432_n-1.jpg" title="P.E"
-					data-lcl-txt="Having P.E and being Handsome." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/69227972_2953856648171985_3201352301839122432_n-1.jpg">
-					<span
-						style="background-image: url(img/69227972_2953856648171985_3201352301839122432_n-1.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_1773911852714796.jpeg" title="HELLO WORLD"
-					data-lcl-txt="Hello Stier's." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_1773911852714796.jpeg">
-					<span style="background-image: url(img/received_1773911852714796.jpeg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_1848477441872532.jpeg" title="Grade 11"
-					data-lcl-txt="Panagtapok 2018" data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_1848477441872532.jpeg">
-					<span style="background-image: url(img/received_1848477441872532.jpeg);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- Speaker -->
-
-				<a class="elem" href="img/FB_IMG_1570929862455.jpg" title="Best Speaker!"
-					data-lcl-txt="My first participation and first Award as a speaker."
-					data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/FB_IMG_1570929862455.jpg">
-					<span style="background-image: url(img/FB_IMG_1570929862455.jpg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_696594340848499.jpeg" title="Looking at you"
-					data-lcl-txt="Looking at you the way look at me." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_696594340848499.jpeg">
-					<span style="background-image: url(img/received_696594340848499.jpeg);"></span>
-				</a>
-
-				<a class="elem" href="img/FB_IMG_1570929872760.jpg" title="Ginoong Flores"
-					data-lcl-txt="Ako to si Natoy na Mahal na mahal ka." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/FB_IMG_1570929872760.jpg">
-					<span style="background-image: url(img/FB_IMG_1570929872760.jpg);"></span>
-				</a>
-
-				<!-- End -->
-
-				<!-- Christmas -->
-
-				<a class="elem" href="img/received_3073224502701431.jpeg" title="Happy New Year!" data-lcl-txt="New me"
-					data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/received_3073224502701431.jpeg">
-					<span style="background-image: url(img/received_3073224502701431.jpeg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_765776007248238.jpeg" title="Welcome 2020!"
-					data-lcl-txt="Sana all chada ang background." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_765776007248238.jpeg">
-					<span style="background-image: url(img/received_765776007248238.jpeg);"></span>
-				</a>
-
-				<a class="elem" href="img/received_2488190538066200.jpeg" title="Be humble Sit down!"
-					data-lcl-txt="Sit down like you own the house." data-lcl-author="Christian Paul H. Flores"
-					data-lcl-thumb="img/received_2488190538066200.jpeg">
-					<span style="background-image: url(img/received_2488190538066200.jpeg);"></span>
-				</a>
-
-				<!-- End -->
-
-			</div>
-		</div>
-	</div>
-
-	<hr class="my-4">
-
-	<section class="container-fluid section" data-aos="fade-in">
-		<div class="row justify-content-center">
-			<div class="col-12">
-				<!-- <img src="img/patterns/gallery.png" class="logo"> -->
-				<h2 class="text-center chgfont">Picture Gallery</h2>
-				<p class="lead ml-5 mr-5 text-center">Hello there! This is my picture gallery of myself, where you can
-					see different pictures. <br>
-					Most of these are the best and happiest moments of my life as a student and a human living on earth.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<hr class="my-4">
-
-
-	<!-- ======= Follow me ======= -->
-
-	<footer>
-		<div class="container-fluid">
-			<div class="row text-center">
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>Contact Me</h5>
-					<hr class="light">
-					<p>+63 9273334152</p>
-					<p><a class="mailto"
-							href="mailto:christianpaulflores223@gmail.com">christianpaulflores223@gmail.com</a></p>
-					<p>Barangay 29, Justo Ramonal ST.</p>
-					<p>Cagayan de Oro City, Philippines</p>
-				</div>
-
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>My Schedules</h5>
-					<hr class="light">
-					<p>Weekdays: 10am - 10pm</p>
-					<p>Saturday: 9am - 6pm</p>
-					<p>Sunday: 1pm - 5pm</p>
-				</div>
-
-				<div class="col-md-4 social">
-					<hr class="light">
-					<h5>Connect</h5>
-					<hr class="light">
-					<a href="https://www.facebook.com/christianpaul223"><i class="fab fa-facebook"></i> Facebook</a>
-					<a href="https://www.instagram.com/christianpaulflores/"><i class="fab fa-instagram"></i>
-						Instagram</a>
-					<a href="https://www.youtube.com/channel/UCXLNlyRIeH-BKAd5MEU8afg" class="mr-3"><i
-							class="fab fa-youtube"></i> Youtube</a>
-					<a href="https://twitter.com/Flores_Chrstn" class="mr-4"><i class="fab fa-twitter"></i> Twitter</a>
-				</div>
-
-				<div class="footer-copyright col-12">
-					<hr class="light-100">
-					<h5 class="text-center">&copy; 2020 Copyright:<a class="footer-copyright"
-							href="https://www.facebook.com/christianpaul223"> Christian Paul H. Flores</a></h5>
-				</div>
-
-			</div>
-		</div>
-	</footer>
-
-
-
-	<!-- //////////////////////////////////////////////// -->
-	<!-- LIGHTBOX INITIALIZATION & AOS EFFECT-->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>
-		AOS.init({
-			offset: 120,
-			duration: 1000
-		});
-	</script>
-
-	<script type="text/javascript">
-		$(document).ready(function (e) {
-
-			// live handler
-			lc_lightbox('.elem', {
-				wrap_class: 'lcl_fade_oc',
-				gallery: true,
-				thumb_attr: 'data-lcl-thumb',
-
-				skin: 'minimal',
-				radius: 0,
-				padding: 0,
-				border_w: 0,
-			});
-
-		});
-	</script>
-
-
+  <header class="for-gallery">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Gallery</a>
+        <!-- <img src="img/patterns/gallery.png" class="size"> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="community.html" class="nav-link">Community</a>
+            </li>
+
+            <li class="nav-item active">
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="shs.html" class="nav-link">Shs Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="ms_stream.html" class="nav-link">Ms Stream</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <!-- Filming -->
+
+        <a class="elem" href="img/39910929_2201860130043989_6164503140461707264_o.jpg" title="NOT READY"
+          data-lcl-txt="Not so ready pose." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/39910929_2201860130043989_6164503140461707264_o.jpg">
+          <span style="
+                background-image: url(img/39910929_2201860130043989_6164503140461707264_o.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/39760829_2201859576710711_3841154394305331200_o.jpg" title="SERIOUS"
+          data-lcl-txt="Just Being serious looking at you." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/39760829_2201859576710711_3841154394305331200_o.jpg">
+          <span style="
+                background-image: url(img/39760829_2201859576710711_3841154394305331200_o.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/39929241_2201858076710861_8292078790411026432_o.jpg" title="SMILE"
+          data-lcl-txt="Smile in your heart." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/39929241_2201858076710861_8292078790411026432_o.jpg">
+          <span style="
+                background-image: url(img/39929241_2201858076710861_8292078790411026432_o.jpg);
+              "></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- Blue -->
+
+        <a class="elem" href="img/39834925_2201858290044173_675076478479630336_o.jpg" title="Simple"
+          data-lcl-txt="I just sit down simply." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/39834925_2201858290044173_675076478479630336_o.jpg">
+          <span style="
+                background-image: url(img/39834925_2201858290044173_675076478479630336_o.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/received_463001871064805.jpeg" title="MESSY HAIR"
+          data-lcl-txt="Messy hair don't care." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/received_463001871064805.jpeg">
+          <span style="background-image: url(img/received_463001871064805.jpeg)"></span>
+        </a>
+
+        <a class="elem" href="img/39750203_2201858203377515_5271853467126726656_o.jpg" title="PEACE"
+          data-lcl-txt="Peace be with you." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/39750203_2201858203377515_5271853467126726656_o.jpg">
+          <span style="
+                background-image: url(img/39750203_2201858203377515_5271853467126726656_o.jpg);
+              "></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- Uniform -->
+
+        <a class="elem" href="img/Pics/ppg.png" title="Grade 12" data-lcl-txt="Still being handsome."
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/Pics/ppg.png">
+          <span style="background-image: url(img/Pics/ppg.png)"></span>
+        </a>
+
+        <a class="elem" href="img/Pics/IMG_2580.png" title="The Endorser" data-lcl-txt="Choice is ICT choose STI."
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/Pics/IMG_2580.png">
+          <span style="background-image: url(img/Pics/IMG_2580.png)"></span>
+        </a>
+
+        <a class="elem" href="img/Pics/prof0.png" title="Graduating" data-lcl-txt="Smiley graduated."
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/Pics/prof0.png">
+          <span style="background-image: url(img/Pics/prof0.png)"></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- Buwan ng Wika -->
+
+        <a class="elem" href="img/69045387_2428599153886930_8787795789637222400_n-1.jpg" title="KAMPEON!"
+          data-lcl-txt="Kampeon ng Pagsasaling wika #Buwan ng Wika" data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/69045387_2428599153886930_8787795789637222400_n-1.jpg">
+          <span style="
+                background-image: url(img/69045387_2428599153886930_8787795789637222400_n-1.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/69344938_699307507256965_961471516321513472_n.jpg" title="Ginoong Flores"
+          data-lcl-txt="Ako to si Natoy na Mahal na mahal ka." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/69344938_699307507256965_961471516321513472_n.jpg">
+          <span style="
+                background-image: url(img/69344938_699307507256965_961471516321513472_n.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/69336336_2697286310316143_9024309627059175424_n-1.jpg" title="Take a photo of me"
+          data-lcl-txt="I smile, you click the camera." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/69336336_2697286310316143_9024309627059175424_n-1.jpg">
+          <span style="
+                background-image: url(img/69336336_2697286310316143_9024309627059175424_n-1.jpg);
+              "></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- STIER -->
+
+        <a class="elem" href="img/69227972_2953856648171985_3201352301839122432_n-1.jpg" title="P.E"
+          data-lcl-txt="Having P.E and being Handsome." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/69227972_2953856648171985_3201352301839122432_n-1.jpg">
+          <span style="
+                background-image: url(img/69227972_2953856648171985_3201352301839122432_n-1.jpg);
+              "></span>
+        </a>
+
+        <a class="elem" href="img/received_1773911852714796.jpeg" title="HELLO WORLD" data-lcl-txt="Hello Stier's."
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/received_1773911852714796.jpeg">
+          <span style="background-image: url(img/received_1773911852714796.jpeg)"></span>
+        </a>
+
+        <a class="elem" href="img/received_1848477441872532.jpeg" title="Grade 11" data-lcl-txt="Panagtapok 2018"
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/received_1848477441872532.jpeg">
+          <span style="background-image: url(img/received_1848477441872532.jpeg)"></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- Speaker -->
+
+        <a class="elem" href="img/FB_IMG_1570929862455.jpg" title="Best Speaker!"
+          data-lcl-txt="My first participation and first Award as a speaker." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/FB_IMG_1570929862455.jpg">
+          <span style="background-image: url(img/FB_IMG_1570929862455.jpg)"></span>
+        </a>
+
+        <a class="elem" href="img/received_696594340848499.jpeg" title="Looking at you"
+          data-lcl-txt="Looking at you the way you look at me." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/received_696594340848499.jpeg">
+          <span style="background-image: url(img/received_696594340848499.jpeg)"></span>
+        </a>
+
+        <a class="elem" href="img/FB_IMG_1570929872760.jpg" title="Ginoong Flores"
+          data-lcl-txt="Ako to si Natoy na Mahal na mahal ka." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/FB_IMG_1570929872760.jpg">
+          <span style="background-image: url(img/FB_IMG_1570929872760.jpg)"></span>
+        </a>
+
+        <!-- End -->
+
+        <!-- Christmas -->
+
+        <a class="elem" href="img/received_3073224502701431.jpeg" title="Happy New Year!" data-lcl-txt="New me"
+          data-lcl-author="Christian Paul H. Flores" data-lcl-thumb="img/received_3073224502701431.jpeg">
+          <span style="background-image: url(img/received_3073224502701431.jpeg)"></span>
+        </a>
+
+        <a class="elem" href="img/received_765776007248238.jpeg" title="Welcome 2020!"
+          data-lcl-txt="Sana all chada ang background." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/received_765776007248238.jpeg">
+          <span style="background-image: url(img/received_765776007248238.jpeg)"></span>
+        </a>
+
+        <a class="elem" href="img/received_2488190538066200.jpeg" title="Be humble Sit down!"
+          data-lcl-txt="Sit down like you own the house." data-lcl-author="Christian Paul H. Flores"
+          data-lcl-thumb="img/received_2488190538066200.jpeg">
+          <span style="background-image: url(img/received_2488190538066200.jpeg)"></span>
+        </a>
+
+        <!-- End -->
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-4" />
+
+  <section class="container-fluid section" data-aos="fade-in">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <!-- <img src="img/patterns/gallery.png" class="logo"> -->
+        <h2 class="text-center chgfont">Picture Gallery</h2>
+        <p class="lead ml-5 mr-5 text-center">
+          Hello there! This is my picture gallery of myself, where you can see
+          different pictures. <br />
+          Most of these are the best and happiest moments of my life as a
+          student and a human living on earth.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="my-4" />
+
+  <!-- ======= Follow me ======= -->
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <hr class="light" />
+          <h5>Contact Me</h5>
+          <hr class="light" />
+          <p>+63 9273334152</p>
+          <p>
+            <a class="mailto" href="mailto:christianpaulflores223@gmail.com">christianpaulflores223@gmail.com</a>
+          </p>
+          <p>Barangay 29, Justo Ramonal ST.</p>
+          <p>Cagayan de Oro City, Philippines</p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="light" />
+          <h5>My Schedules</h5>
+          <hr class="light" />
+          <p>Weekdays: 10am - 10pm</p>
+          <p>Saturday: 9am - 6pm</p>
+          <p>Sunday: 1pm - 5pm</p>
+        </div>
+
+        <div class="col-md-4 social">
+          <hr class="light" />
+          <h5>Connect</h5>
+          <hr class="light" />
+          <a href="https://www.facebook.com/christianpaul223"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://www.instagram.com/christianpaulflores/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.youtube.com/channel/UCXLNlyRIeH-BKAd5MEU8afg" class="mr-3"><i class="fab fa-youtube"></i>
+            Youtube</a>
+          <a href="https://twitter.com/Flores_Chrstn" class="mr-4"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+
+        <div class="footer-copyright col-12">
+          <hr class="light-100" />
+          <h5 class="text-center">
+            &copy; 2020 Copyright:
+            <a class="footer-copyright" href="https://www.facebook.com/christianpaul223">
+              Christian Paul H. Flores</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- //////////////////////////////////////////////// -->
+  <!-- LIGHTBOX INITIALIZATION & AOS EFFECT-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 1000,
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function (e) {
+      // live handler
+      lc_lightbox(".elem", {
+        wrap_class: "lcl_fade_oc",
+        gallery: true,
+        thumb_attr: "data-lcl-thumb",
+
+        skin: "minimal",
+        radius: 0,
+        padding: 0,
+        border_w: 0,
+      });
+    });
+  </script>
 </body>
 
 </html>
