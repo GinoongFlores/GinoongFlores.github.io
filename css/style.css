@@ -412,7 +412,8 @@ a {
   }
 
   .updatedate {
-    font-size: 7px;
+    margin-left: 10rem;
+    display: table;
   }
 }
 
