@@ -191,11 +191,6 @@ li a:hover:not(.active) {
   -webkit-transition-delay-transistion-delay: 0.15s !important;
 }
 
-.updatedate {
-  position: absolute;
-  margin-left: 20rem;
-}
-
 footer {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   font-family: Raleway;
@@ -264,10 +259,6 @@ h5 {
     font-size: 1.3rem;
     line-height: 2;
   }
-
-  .updatedate {
-    margin-left: 9rem;
-  }
 }
 @media screen and (max-width: 768px) {
   .heading {
@@ -315,11 +306,6 @@ a {
   .social a {
     font-size: 15px;
     line-height: 2rem;
-  }
-
-  .updatedate {
-    font-size: 12px;
-    margin-left: 3rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -378,10 +364,6 @@ a {
     font-size: 10px;
   }
 
-  .updatedate {
-    font-size: 10px;
-  }
-
   .fa-facebook,
 .fa-twitter,
 .fa-instagram,
@@ -409,11 +391,6 @@ a {
 
   #myImg2 {
     width: 290px;
-  }
-
-  .updatedate {
-    margin-left: 10rem;
-    display: table;
   }
 }
 
