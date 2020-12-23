@@ -20,7 +20,7 @@ I build this website using HTML, CSS, & Bootstrap and by using lightbox js on my
 
 ## Authors
 
-- **Christian Paul H. Flores** - _Initial work_ - [GinoongFlores](https://ginoongflores.github.io/)
+- **Christian Paul H. Flores** - _Initial work_ - [GinoongFlores](https://www.ginoongflores.me/)
 
 ## Acknowledgments
 
