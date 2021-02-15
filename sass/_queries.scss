@@ -8,9 +8,9 @@
     line-height: 2;
   }
 
-  // .updatedate {
-  //   margin-left: 9rem;
-  // }
+  table {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -65,10 +65,40 @@
     }
   }
 
-  // .updatedate {
-  //   font-size: 12px;
-  //   margin-left: 3rem;
-  // }
+  table {
+    font-size: 0.9rem;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  .raf,
+  .raf tbody,
+  .raf tr,
+  .raf td {
+    display: block;
+    width: 100%;
+  }
+
+  .raf tr {
+    margin-bottom: 0.5rem;
+  }
+
+  .raf td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    font-size: 0.9rem;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -137,15 +167,15 @@
     font-size: 10px;
   }
 
-  // .updatedate {
-  //   font-size: 10px;
-  // }
-
   .fa-facebook,
   .fa-twitter,
   .fa-instagram,
   .fa-youtube {
     font-size: medium;
+  }
+
+  table {
+    font-size: 0.8rem;
   }
 }
 
@@ -171,8 +201,7 @@
     width: 290px;
   }
 
-  // .updatedate {
-  //   margin-left: 10rem;
-  //   display: table;
-  // }
+  table {
+    font-size: 0.7rem;
+  }
 }

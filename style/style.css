@@ -4,6 +4,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  padding: 0;
+  margin: 0;
   font-family: Raleway;
 }
 
@@ -191,6 +193,52 @@ li a:hover:not(.active) {
   -webkit-transition-delay-transistion-delay: 0.15s !important;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.raf {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.raf td,
+.raf th {
+  border: 1px solid black;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.raf th {
+  background-color: #befde8;
+}
+
+tr.nobold > th {
+  font-weight: normal;
+}
+
+td,
+th {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.units {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #b8eedc;
+}
+
+tr:nth-child(odd) {
+  background-color: #f3d8b4;
+}
+
+td.units:first-child {
+  text-align: right;
+}
+
 footer {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   font-family: Raleway;
@@ -259,6 +307,10 @@ h5 {
     font-size: 1.3rem;
     line-height: 2;
   }
+
+  table {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .heading {
@@ -306,6 +358,41 @@ a {
   .social a {
     font-size: 15px;
     line-height: 2rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  .raf,
+.raf tbody,
+.raf tr,
+.raf td {
+    display: block;
+    width: 100%;
+  }
+
+  .raf tr {
+    margin-bottom: 0.5rem;
+  }
+
+  .raf td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    font-size: 0.9rem;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -374,6 +461,10 @@ a {
 .fa-youtube {
     font-size: medium;
   }
+
+  table {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .for-gallery {
@@ -395,6 +486,10 @@ a {
 
   #myImg2 {
     width: 290px;
+  }
+
+  table {
+    font-size: 0.7rem;
   }
 }
 
