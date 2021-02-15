@@ -72,6 +72,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow: hidden;
+  }
+
   #myImg2 {
     width: 500px;
   }
